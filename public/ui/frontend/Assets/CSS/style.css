@@ -1,0 +1,72 @@
+.hero-header {
+    background: linear-gradient(rgba(80, 128, 156, 0.327), rgba(26, 114, 191, 0.579)), url("../Images/bg.png");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+.search-box form {
+
+    display: flex;
+}
+
+.search-box .form-control {
+    border: 1px solid #ccc;
+    box-shadow: inset 0 0px 0px rgba(0, 0, 0, .075);
+    border-radius: 5px;
+    padding-left: 35px;
+}
+
+.search-box .search-location {
+
+    margin-right: 12px;
+    position: relative;
+    width: 240px;
+}
+
+.search-location .form-control {
+    background: #fff url(../Images/location.png) no-repeat 10px center;
+}
+
+.search-box .search-info {
+
+    margin-right: 12px;
+    position: relative;
+    width: 490px;
+}
+
+.search-info .form-control {
+    background: #fff url(../Images/search.png) no-repeat 10px center;
+}
+
+.search-box .search-btn {
+    width: 46px;
+    -ms-flex: 0 0 46px;
+    flex: 0 0 46px;
+    height: 46px;
+}
+
+.search-box .search-btn span {
+    display: none;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #15558D;
+    color: white;
+}
+
+.card1 {
+    padding: 1.5em .5em .5em;
+    border-radius: 2em;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.card {
+    padding: 1.5em .5em .5em;
+    border-radius: 1em;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
